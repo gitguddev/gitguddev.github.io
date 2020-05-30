@@ -16,7 +16,7 @@
 	"homepage": "https://gitguddev.github.io",
 	"scripts": {
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+		"deploy": "gh-pages -d build -b master",
 		"start": "react-scripts start",
 		"build": "react-scripts build && react-snapshot",
 		"test": "react-scripts test",
