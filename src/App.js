@@ -7,7 +7,7 @@ import {
 	Link,
 	Redirect
 } from "react-router-dom";
-import Home from "./route/home.jsx";
+import Home from "./route/home";
 
 function App() {
 	return (

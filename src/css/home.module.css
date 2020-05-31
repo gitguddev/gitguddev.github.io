@@ -1,11 +1,11 @@
-.headerVideo {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	filter: grayscale(1);
-	opacity: 0.1;
-	position: absolute;
-	z-index: -1;
+/** Animation **/
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .header {
@@ -23,15 +23,6 @@
 	margin-left: 1vw;
 }
 
-@keyframes fade-in {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
 .title {
 	font-size: 9vw;
 }
@@ -46,10 +37,14 @@
 	padding: 10px;
 	color: grey;
 	text-decoration: none;
+	border-bottom: 2px solid white;
+	transition: border-bottom 0.5s;
 }
 
 .nav_bt:hover {
 	color: black;
+	border-bottom: 2px solid #555;
+	transition: border-bottom 0.5s;
 }
 
 @media not screen and (max-width: 2000px) {
