@@ -51,3 +51,23 @@
 .nav_bt:hover {
 	color: black;
 }
+
+@media not screen and (max-width: 2000px) {
+	.title {
+		font-size: 7vw;
+	}
+	.description,
+	.nav_bt {
+		font-size: 1vw;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.title {
+		font-size: 13vw;
+	}
+	.description,
+	.nav_bt {
+		font-size: 3.5vw;
+	}
+}
