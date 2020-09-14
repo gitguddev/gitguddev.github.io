@@ -1,0 +1,35 @@
+.thanawat {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thanawat > div:first-child > img:first-child {
+  width: 100%;
+  max-height: 50vh;
+  object-fit: contain;
+}
+
+.thanawat > div:first-child {
+  transform: translateY(-100px);
+  width: 20%;
+}
+
+.thanawat svg {
+  color: black;
+}
+
+.thanawat > div {
+  /* border-left: 1px dashed black; */
+  padding: 0px 10px 0px 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .thanawat > div:first-child {
+    width: 100%;
+    margin: 0;
+    transform: translateY(0);
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
