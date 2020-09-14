@@ -215,7 +215,7 @@ function MemberList() {
 
 function MemberSection(props) {
   return (
-    <div className={style.section} style={{ backgroundColor: "white" }}>
+    <div id={props.username} className={style.section} style={{ backgroundColor: "white" }}>
       {props.children}
     </div>
   );
