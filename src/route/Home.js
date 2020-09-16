@@ -2,6 +2,7 @@ import style from "../css/home.module.css";
 import React, { useState, useRef } from "react";
 
 import Thanawat from "../member/Thanawat";
+import Aon from "../member/Aon";
 
 import album1 from "../album/album1.jpg";
 import album2 from "../album/album2.jpg";
@@ -204,10 +205,10 @@ function MemberList() {
         }}
         className={style.parallax}
       >
-        {"Experimenting !"}
+        {"NANTHIYA PITISEANG"}
       </div>
       <MemberSection username="taetargmo">
-        <Thanawat />
+        <Aon />
       </MemberSection>
     </>
   );
