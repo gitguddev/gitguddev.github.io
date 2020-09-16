@@ -1,5 +1,6 @@
 import Thanawat from "../member/Thanawat";
 import Thiraphat from "../member/Thiraphat";
+import Nanthiya from "../member/Aon";
 
 const MemberList = [
   {
@@ -19,7 +20,7 @@ const MemberList = [
   {
     name: "Nanthiya Pitisaeng",
     user: "aonann",
-    Component: null,
+    Component: Nanthiya,
     img:
       "https://scontent.fbkk5-5.fna.fbcdn.net/v/t1.0-9/118777158_919280675261710_3009010750730749915_n.jpg?_nc_cat=104&_nc_sid=8bfeb9&_nc_ohc=4RRT7sWaY7gAX8mHZP9&_nc_ht=scontent.fbkk5-5.fna&oh=237c5736753058d9d0dddb7a871429c1&oe=5F8323E2",
   },
