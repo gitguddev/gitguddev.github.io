@@ -2,7 +2,7 @@ import style from "../css/home.module.css";
 import React, { useState, useRef } from "react";
 
 import Thanawat from "../member/Thanawat";
-
+import Thiraphat from "../member/Thiraphat";
 import album1 from "../album/album1.jpg";
 import album2 from "../album/album2.jpg";
 import album3 from "../album/album3.jpg";
@@ -45,7 +45,7 @@ const userList = [
       "https://scontent.fbkk5-6.fna.fbcdn.net/v/t1.0-9/118791412_2695907100691047_313690294550642642_o.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=FCGkX4OCiAcAX9iudpD&_nc_ht=scontent.fbkk5-6.fna&oh=1cd9e5a990f5f85cdaa31ae50a7a66e0&oe=5F8150B4",
   },
   {
-    name: "Koheng Chokwiwat",
+    name: "NO1",
     user: "khc",
     img:
       "https://scontent.fbkk5-4.fna.fbcdn.net/v/t1.0-9/118578961_978147529324966_9050996599303733150_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=8HztZOxRh30AX8pBRdg&_nc_ht=scontent.fbkk5-4.fna&oh=e00652bd382599e5d199b7a21bc49cd4&oe=5F82F907",
@@ -207,7 +207,7 @@ function MemberList() {
         {"Experimenting !"}
       </div>
       <MemberSection username="taetargmo">
-        <Thanawat />
+        <Thiraphat />
       </MemberSection>
     </>
   );
