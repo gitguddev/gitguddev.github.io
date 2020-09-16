@@ -52,7 +52,7 @@ function Thiraphat() {
           <FontAwesomeIcon icon={faBook} />
         </a>
         <br />
-        <Label title="ผู้ก่อตั้ง" color="red" />
+        <Label title="ลูกสมุน" color="red" />
         <Label title="Web Developer" color="green" />
       </div>
       <div style={{ flex: 1 }}>
