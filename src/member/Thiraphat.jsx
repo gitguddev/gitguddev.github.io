@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 
-import thanawatImg from "./thanawat.png";
+import thanawatImg from "./Thiraphat.png";
 import thanawatStyle from "./thanawat.module.css";
 
 function Label(props) {
@@ -39,9 +39,9 @@ function Thiraphat() {
             textDecoration: "underline",
           }}
         >
-          Thanawat Yodnil
+          Thiraphat Nakkasem
         </div>
-        <div style={{ marginBottom: 10 }}>@littleboycoding</div>
+        <div style={{ marginBottom: 10 }}>ไม่มีขี้เกียจใส่</div>
         <a href="https://github.com/littleboycoding/">
           <FontAwesomeIcon icon={faGithub} />
         </a>{" "}
@@ -80,7 +80,7 @@ function Thiraphat() {
         </div>
         <div>
           <h3>คติประจำใจ</h3>
-          ไม่มีอะไรยาก แยู่ที่จะทำรึป่าว
+          ไม่มีอะไรยาก อยู่ที่จะทำรึป่าว
         </div>
       </div>
     </div>

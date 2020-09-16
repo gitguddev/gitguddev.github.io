@@ -1,4 +1,5 @@
 import Thanawat from "../member/Thanawat";
+import Thiraphat from "../member/Thiraphat";
 
 const MemberList = [
   {
@@ -11,7 +12,7 @@ const MemberList = [
   {
     name: "Protae",
     user: "taetargmo",
-    Component: null,
+    Component:Thiraphat,
     img:
       "https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.0-9/82859128_2582758038718349_5708485176787468288_n.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=Yn0Lq0MZP3QAX92E7WY&_nc_ht=scontent.fbkk5-3.fna&oh=1450f55969536b7f63ab0465d3c71c10&oe=5F81AAF1",
   },
