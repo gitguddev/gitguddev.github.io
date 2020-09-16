@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.51c78279.chunk.css",
-    "main.js": "/website/static/js/main.7a8179a0.chunk.js",
-    "main.js.map": "/website/static/js/main.7a8179a0.chunk.js.map",
+    "main.css": "/website/static/css/main.4941eeb0.chunk.css",
+    "main.js": "/website/static/js/main.ead3a2bd.chunk.js",
+    "main.js.map": "/website/static/js/main.ead3a2bd.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.1c8d7277.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.1c8d7277.js.map",
-    "static/js/2.a96913ac.chunk.js": "/website/static/js/2.a96913ac.chunk.js",
-    "static/js/2.a96913ac.chunk.js.map": "/website/static/js/2.a96913ac.chunk.js.map",
+    "static/js/2.37bf4237.chunk.js": "/website/static/js/2.37bf4237.chunk.js",
+    "static/js/2.37bf4237.chunk.js.map": "/website/static/js/2.37bf4237.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.578b20fd117ddb7775513af216f8ef43.js": "/website/precache-manifest.578b20fd117ddb7775513af216f8ef43.js",
+    "precache-manifest.2877a03e2fb40258d9ff8179b654ebf8.js": "/website/precache-manifest.2877a03e2fb40258d9ff8179b654ebf8.js",
     "service-worker.js": "/website/service-worker.js",
-    "static/css/main.51c78279.chunk.css.map": "/website/static/css/main.51c78279.chunk.css.map",
-    "static/js/2.a96913ac.chunk.js.LICENSE.txt": "/website/static/js/2.a96913ac.chunk.js.LICENSE.txt",
+    "static/css/main.4941eeb0.chunk.css.map": "/website/static/css/main.4941eeb0.chunk.css.map",
+    "static/js/2.37bf4237.chunk.js.LICENSE.txt": "/website/static/js/2.37bf4237.chunk.js.LICENSE.txt",
+    "static/media/Thiraphat.png": "/website/static/media/Thiraphat.288a35eb.png",
     "static/media/album1.jpg": "/website/static/media/album1.5c6df5aa.jpg",
     "static/media/album2.jpg": "/website/static/media/album2.d0c7a7b6.jpg",
     "static/media/album3.jpg": "/website/static/media/album3.15806b42.jpg",
+    "static/media/meteor.svg": "/website/static/media/meteor.ddd63dfd.svg",
     "static/media/thanawat.png": "/website/static/media/thanawat.a8bcccc8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1c8d7277.js",
-    "static/js/2.a96913ac.chunk.js",
-    "static/css/main.51c78279.chunk.css",
-    "static/js/main.7a8179a0.chunk.js"
+    "static/js/2.37bf4237.chunk.js",
+    "static/css/main.4941eeb0.chunk.css",
+    "static/js/main.ead3a2bd.chunk.js"
   ]
 }
