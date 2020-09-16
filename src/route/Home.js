@@ -5,6 +5,8 @@ import album1 from "../album/album1.jpg";
 import album2 from "../album/album2.jpg";
 import album3 from "../album/album3.jpg";
 
+import meteor from "./meteor.svg";
+
 import MemberList from "../member/memberList";
 
 function Teletype() {
@@ -111,8 +113,7 @@ function Home() {
         <center>
           <div
             ref={albumRef}
-            onLoad={(event) => console.log(event.target)}
-            className={style.album + " " + (albumState && style.albumShow)}
+            className={style.albumTest + " " + (albumState && style.fadeIn)/* style.album*/}
           >
             <img src={album1} />
             <img src={album2} />
@@ -130,7 +131,7 @@ function Home() {
         }}
         className={style.parallax}
       >
-        {"<สมาชิกทั้งหมด />"}
+        {/* <img src={meteor} /> */}
       </div>
       <Members />
     </div>

@@ -67,6 +67,46 @@
   align-items: center;
 }
 
+.albumTest {
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+  filter: opacity(0);
+}
+
+.albumTest img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  margin: 10px;
+  box-shadow: 0px 0px 3px 1px #bbb;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.fadeIn {
+  animation: fadeIn 1s;
+  filter: opacity(1) !important;
+}
+
+@keyframes fadeIn {
+  from {
+    filter: opacity(0);
+    transform: translateX(100px);
+  }
+  to {
+    filter: opacity(1);
+    transform: translateX(0px);
+  }
+}
+
+.albumTest img:hover {
+  transform: translateY(-20px);
+  transition: transform 0.2s;
+}
+
 .albumShow {
   animation: albumShow 0.5s;
   filter: opacity(1) !important;
@@ -146,4 +186,11 @@
     padding-left: 300px;
     padding-right: 300px;
   }
+}
+
+.meteor {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
 }
