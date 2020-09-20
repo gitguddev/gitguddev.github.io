@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Designed by Thanawat Yodnil -->
+<svg version="1.1" width="600" height="600">
+    <defs>
+        <linearGradient id="meteorGrad" x1="0%" y1="20%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#252525;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#161616;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <g id="meteor">
+        <circle cx="300" cy="300" r="150" stroke="white" stroke-width="0.3" fill="url(#meteorGrad)" />
+        <animateTransform attributeName="transform" type="rotate" from="0 300 300" to="360 300 300" dur="10s"
+            repeatCount="indefinite" />
+    </g>
+    <g id="rocket">
+        <path d="M 15,270 q 15,-20,30,0 q 10,15,-5,40 l -20,0 q -15,-20,-5,-40 l 30,0 z" stroke="white" stroke-width="1"
+            fill="none" />
+        <path d="M 20,310 q -5,5,10,20 q 15,-15,10,-20 " stroke="orange" stroke-width="5" fill="rgb(255,200,100)" />
+        <circle cx="30" cy="285" r="7" fill="none" stroke="white" stroke-width="1" />
+        <animateTransform attributeName="transform" type="rotate" from="0 300 300" to="360 300 300" dur="10s"
+            repeatCount="indefinite" />
+    </g>
+</svg>

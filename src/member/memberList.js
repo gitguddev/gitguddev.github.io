@@ -1,6 +1,6 @@
-import Thanawat from "../member/Thanawat";
-import Thiraphat from "../member/Thiraphat";
-import Nanthiya from "../member/Aon";
+import Thanawat from "./Thanawat";
+import Thiraphat from "./Thiraphat";
+import Nanthiya from "./Nanthiya";
 
 const MemberList = [
   {
@@ -13,7 +13,7 @@ const MemberList = [
   {
     name: "Protae",
     user: "taetargmo",
-    Component:Thiraphat,
+    Component: Thiraphat,
     img:
       "https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.0-9/82859128_2582758038718349_5708485176787468288_n.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=Yn0Lq0MZP3QAX92E7WY&_nc_ht=scontent.fbkk5-3.fna&oh=1450f55969536b7f63ab0465d3c71c10&oe=5F81AAF1",
   },
@@ -56,8 +56,9 @@ const MemberList = [
     name: "Phantakarn Somchun",
     user: "Xurban21",
     Component: null,
-    img: "https://scontent.fbkk5-7.fna.fbcdn.net/v/t1.0-1/c0.24.200.200a/p200x200/45449512_1241543095985133_5089820052903952384_o.jpg?_nc_cat=107&_nc_sid=7206a8&_nc_ohc=k5XqoSgZB-cAX-hq29f&_nc_ht=scontent.fbkk5-7.fna&oh=d68eb7111a244ed35adb7ae9a31ad82b&oe=5F87E192"
-  }
+    img:
+      "https://scontent.fbkk5-7.fna.fbcdn.net/v/t1.0-1/c0.24.200.200a/p200x200/45449512_1241543095985133_5089820052903952384_o.jpg?_nc_cat=107&_nc_sid=7206a8&_nc_ohc=k5XqoSgZB-cAX-hq29f&_nc_ht=scontent.fbkk5-7.fna&oh=d68eb7111a244ed35adb7ae9a31ad82b&oe=5F87E192",
+  },
 ];
 
 export default MemberList;

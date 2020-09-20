@@ -42,7 +42,7 @@
 /* Font Size responsiveness */
 
 .title {
-  font-size: calc(5.5vw + 5.0vh);
+  font-size: calc(5.5vw + 5vh);
   font-weight: bold;
 }
 
@@ -53,6 +53,7 @@
 .section {
   padding: 20px;
   background-color: white;
+  min-height: 100vh;
 }
 
 .parallax {
@@ -61,10 +62,11 @@
   z-index: -1;
   overflow: hidden;
   color: white;
-  min-height: 150px;
+  /* min-height: 150px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .albumTest {
@@ -122,10 +124,10 @@
 
 @keyframes albumShow {
   from {
-    filter: opacity(0)
+    filter: opacity(0);
   }
   to {
-    filter: opacity(1)
+    filter: opacity(1);
   }
 }
 
@@ -172,7 +174,7 @@
 }
 
 .album:hover > img:nth-child(2) {
-  transform: scale(1.0) translateY(-20px);
+  transform: scale(1) translateY(-20px);
   transition: transform 0.2s;
 }
 
@@ -183,14 +185,7 @@
 
 @media only screen and (min-width: 2000px) {
   .section {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
-}
-
-.meteor {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid white;
 }

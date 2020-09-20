@@ -5,7 +5,7 @@ import album1 from "../album/album1.jpg";
 import album2 from "../album/album2.jpg";
 import album3 from "../album/album3.jpg";
 
-import meteor from "./meteor.svg";
+import { ReactComponent as Meteor } from "../meteor.svg";
 
 import MemberList from "../member/memberList";
 
@@ -113,7 +113,11 @@ function Home() {
         <center>
           <div
             ref={albumRef}
-            className={style.albumTest + " " + (albumState && style.fadeIn)/* style.album*/}
+            className={
+              style.albumTest +
+              " " +
+              (albumState && style.fadeIn) /* style.album*/
+            }
           >
             <img src={album1} />
             <img src={album2} />
@@ -125,14 +129,6 @@ function Home() {
           GitGud ณ วันก่อตั้ง 7 สิงหาคม 2562
         </center>
       </div>
-      <div
-        style={{
-          fontSize: 26,
-        }}
-        className={style.parallax}
-      >
-        {/* <img src={meteor} /> */}
-      </div>
       <Members />
     </div>
   );
@@ -143,11 +139,9 @@ function Members() {
     (map, index) =>
       map.Component && (
         <>
-          {index > 0 && (
-            <div style={{ fontSize: 30,}}
-              className={style.parallax}
-            >
-              {map.name}
+          {index >= 0 && (
+            <div className={style.parallax}>
+              <Meteor />
             </div>
           )}
           <MemberSection username={map.user}>

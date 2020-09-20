@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 
-import thanawatImg from "./Thiraphat.png";
-import thanawatStyle from "./thanawat.module.css";
+import thanawatImg from "./images/Thiraphat.png";
+import thanawatStyle from "./stylesheet/thanawat.module.css";
 
 function Label(props) {
   return (
@@ -60,7 +60,8 @@ function Thiraphat() {
           <h3>คำแนะนำตัว</h3>
           ผมนาย `ธีรพัทธ์ นาคเกษมเป็นผู้ร่วมก่อตั้ง GitGud ยุคบุกเบิก
           และเป็นสมุนของพี่เกม ณ ปัจจุบัน, ชอบการโปรแกรมมิ่งมากถึงมากที่สุด
-          ทักษะที่ถนัดคือโปรแกรมมิ่ง ออกแบบเซิฟเวอร์ เป้าหมายคือการเป็น Full Stack Developer 💻🖥️
+          ทักษะที่ถนัดคือโปรแกรมมิ่ง ออกแบบเซิฟเวอร์ เป้าหมายคือการเป็น Full
+          Stack Developer 💻🖥️
         </div>
         <div>
           <h3>Technologies ที่ใช้</h3>

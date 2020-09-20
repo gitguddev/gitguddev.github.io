@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 
-import thanawatImg from "./thanawat.png";
-import thanawatStyle from "./thanawat.module.css";
+import thanawatImg from "./images/thanawat.png";
+import thanawatStyle from "./stylesheet/thanawat.module.css";
 
 function Label(props) {
   return (
