@@ -27,7 +27,7 @@ const MemberList = [
   },
   {
     name: "Natthakiach Charoenpanchai",
-    user: "REDz",
+    user: "REDzSEA",
     Component: REDz,
     img:
       "https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.0-9/116584317_606879683541543_3734934671500337110_o.jpg?_nc_cat=105&_nc_sid=174925&_nc_ohc=LchyKcRWOjQAX-JyEsa&_nc_ht=scontent.fbkk5-3.fna&oh=a359de28e87d6550774a15251eb7056d&oe=5F835C6F",
