@@ -1,6 +1,7 @@
 import Thanawat from "../member/Thanawat";
 import Thiraphat from "../member/Thiraphat";
 import Nanthiya from "../member/Aon";
+import REDz from "../member/REDz";
 
 const MemberList = [
   {
@@ -25,6 +26,13 @@ const MemberList = [
       "https://scontent.fbkk5-5.fna.fbcdn.net/v/t1.0-9/118777158_919280675261710_3009010750730749915_n.jpg?_nc_cat=104&_nc_sid=8bfeb9&_nc_ohc=4RRT7sWaY7gAX8mHZP9&_nc_ht=scontent.fbkk5-5.fna&oh=237c5736753058d9d0dddb7a871429c1&oe=5F8323E2",
   },
   {
+    name: "Natthakiach Charoenpanchai",
+    user: "REDz",
+    Component: REDz,
+    img:
+      "https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.0-9/116584317_606879683541543_3734934671500337110_o.jpg?_nc_cat=105&_nc_sid=174925&_nc_ohc=LchyKcRWOjQAX-JyEsa&_nc_ht=scontent.fbkk5-3.fna&oh=a359de28e87d6550774a15251eb7056d&oe=5F835C6F",
+  },
+  {
     name: "Jiranat Juntamarai",
     user: "pupae",
     Component: null,
@@ -32,14 +40,7 @@ const MemberList = [
       "https://scontent.fbkk5-5.fna.fbcdn.net/v/t1.0-9/90113335_1779067795561337_2267110568936603648_o.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_ohc=_3rZge6XBNkAX89z_H6&_nc_ht=scontent.fbkk5-5.fna&oh=f24e1883d2cdc25267c7fba69558eda9&oe=5F822771",
   },
   {
-    name: "Natthakiat Jaruenchai",
-    user: "UserXCodert",
-    Component: null,
-    img:
-      "https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.0-9/116584317_606879683541543_3734934671500337110_o.jpg?_nc_cat=105&_nc_sid=174925&_nc_ohc=LchyKcRWOjQAX-JyEsa&_nc_ht=scontent.fbkk5-3.fna&oh=a359de28e87d6550774a15251eb7056d&oe=5F835C6F",
-  },
-  {
-    name: "North",
+    name: "North KAK",
     user: "north",
     Component: null,
     img:

@@ -1,3 +1,7 @@
+html,body {
+  height: 100%;
+}
+
 .teletype {
   position: absolute;
   top: 0;
@@ -51,6 +55,7 @@
 }
 
 .section {
+  position: relative;
   padding: 20px;
   background-color: white;
 }
